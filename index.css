@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 6px;
+    gap: 20px;
+    font-family: arial,sans-serif;
+}
+
+.logo-google {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+    margin-top: auto;
+    height: 100%;
+}
+
+.botao-principal {
+    background-color: #1A73E8;
+    color: #ffff;
+    border: #ffff;
+    border-radius: 5%;
+    width: 120px;
+    height: 35px;
+}
+
+.barrinha {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 500px;
+    border-color: gainsboro;
+    color: black;
+    border-radius: 15px;
+    padding: 5px 8px 0 14px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer {
+    width: 100%;
+    background: #f2f2f2;
+    padding: 30px 30px;
+    position: fixed;
+    bottom: 0;
+    font-family: arial,sans-serif;
+}
+
+.brasil {
+    font-size: 15px arial,sans-serif;
+    padding: 15px 30px;
+
+}
+
+.rodape {
+    font-size: 15px arial,sans-serif;
+    display: flex;
+    gap: 20px;
+}
+
+.rodape2 {
+    font-size: 15px arial,sans-serif;
+    display: flex;
+    gap: 20px;
+}
+
+.teste {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: arial,sans-serif;
+    flex-wrap: wrap;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    margin: 11px 4px;
+    padding: 0px 530px;
+    gap: 5px;
+    font-family: arial,sans-serif;
+    margin: 11px 4px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.rodape {
+    display: flex;
+    gap: 50px;
+}
+
